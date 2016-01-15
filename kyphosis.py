@@ -79,7 +79,7 @@ class kyphosis():
         if self.empty_space != len(self.empty_space) * "\x00":
             print "Found extra data in the Fat file slack space for " + self.someFile
             self.extra_data_found = True
-            self.extra_data[self.count] = self.extra_data_found
+            self.extra_data[self.count] = self.empty_space
             if self.writeFile is True:
                 print "Writing to " + os.path.basename(self.someFile) + '.extra_data_section' + str(self.count)
                 with open(os.path.basename(self.someFile) + '.extra_data_section' + str(self.count), 'w') as h:
