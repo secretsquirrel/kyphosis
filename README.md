@@ -6,4 +6,4 @@ Because Apple codesigning tools might miss something.  Or the binary isn't signe
 
 You see, you can stuff data into and on a binary.
 
-See my shmoocon 2016 presentation for details.
+See my Shmoocon 2016 presentation for details.
